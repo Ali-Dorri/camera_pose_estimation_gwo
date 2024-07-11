@@ -9,4 +9,4 @@ actual_pose_1 = readmatrix("../Data/ImagePose_01.csv");
 actual_pose_2 = readmatrix("../Data/ImagePose_02.csv");
 actual_pose_1_to_2 = actual_pose_2 / actual_pose_1;
 
-test_cam_pose_estimation(image_1, image_2, intrinsics, 12, 100, 5, 1, actual_pose_1_to_2);
+test_cam_pose_estimation(image_1, image_2, intrinsics, 12, 100, 30, 1, actual_pose_1_to_2);
